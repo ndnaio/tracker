@@ -1,6 +1,6 @@
 # @ndna/analytics
 
-Privacy-first, cookieless web analytics for [ndna analytics](https://analytics.ndna.io).
+Cookieless, privacy-first analytics for personal pages. ~1.5 KB. Data goes to [ndna analytics](https://analytics.ndna.io).
 
 - **~1.5 KB gzipped**, zero dependencies, fully typed
 - **No cookies, no localStorage, no visitor IDs, no fingerprinting** — no consent banner needed

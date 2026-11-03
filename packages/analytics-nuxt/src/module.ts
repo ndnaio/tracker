@@ -13,8 +13,16 @@ export default defineNuxtModule<ModuleOptions>({
     configKey: 'ndnaAnalytics',
     compatibility: { nuxt: '>=3.15.0' },
   },
+  // Every key needs a default: Nuxt only lets env vars override runtime config
+  // keys that exist at build time. Empty strings fall back to the core defaults.
   defaults: {
     enabled: true,
+    site: '',
+    host: '',
+    api: '',
+    auto: true,
+    hash: false,
+    allowLocalhost: false,
   },
   setup(options, nuxt) {
     const resolver = createResolver(import.meta.url)

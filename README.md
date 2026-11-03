@@ -1,6 +1,6 @@
 # ndna analytics tracker
 
-Cookieless, privacy-first analytics for [analytics.ndna.io](https://analytics.ndna.io). ~1.5 KB.
+Cookieless, privacy-first analytics for personal pages. ~1.5 KB. Data goes to [ndna analytics](https://analytics.ndna.io).
 
 ## Install
 

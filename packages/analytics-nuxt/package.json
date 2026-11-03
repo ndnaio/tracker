@@ -1,7 +1,7 @@
 {
   "name": "@ndna/analytics-nuxt",
-  "version": "0.1.0",
-  "description": "Nuxt module for ndna analytics — privacy-first, cookieless analytics.",
+  "version": "0.1.1",
+  "description": "Nuxt module for @ndna/analytics: cookieless, privacy-first analytics for personal pages.",
   "license": "MIT",
   "author": {
     "name": "ndna.io",

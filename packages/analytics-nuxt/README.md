@@ -1,6 +1,6 @@
 # @ndna/analytics-nuxt
 
-Nuxt module for [ndna analytics](https://analytics.ndna.io) — privacy-first, cookieless analytics. Built on [`@ndna/analytics`](https://github.com/ndnaio/tracker/tree/main/packages/analytics).
+Nuxt module for [`@ndna/analytics`](https://github.com/ndnaio/tracker/tree/main/packages/analytics): cookieless, privacy-first analytics for personal pages. ~1.5 KB. Data goes to [ndna analytics](https://analytics.ndna.io).
 
 ```bash
 npm i @ndna/analytics-nuxt

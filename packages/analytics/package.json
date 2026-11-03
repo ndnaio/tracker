@@ -1,7 +1,7 @@
 {
   "name": "@ndna/analytics",
-  "version": "0.1.0",
-  "description": "Privacy-first, cookieless analytics tracker for ndna analytics — ~1.5 KB, typed, with Vue and React bindings.",
+  "version": "0.1.1",
+  "description": "Cookieless, privacy-first analytics for personal pages. ~1.5 KB, typed, with Vue and React bindings.",
   "license": "MIT",
   "author": {
     "name": "ndna.io",
