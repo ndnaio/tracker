@@ -1,0 +1,14 @@
+{
+  "name": "ndna-tracker-monorepo",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "packages/analytics",
+    "packages/analytics-nuxt"
+  ],
+  "scripts": {
+    "build": "npm run build -w @ndna/analytics && npm run build -w @ndna/analytics-nuxt",
+    "test": "npm run test -w @ndna/analytics",
+    "typecheck": "npm run typecheck -w @ndna/analytics"
+  }
+}

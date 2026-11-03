@@ -1,0 +1,60 @@
+{
+  "name": "@ndna/analytics-nuxt",
+  "version": "0.1.0",
+  "description": "Nuxt module for ndna analytics — privacy-first, cookieless analytics.",
+  "license": "MIT",
+  "author": {
+    "name": "ndna.io",
+    "url": "https://ndna.io"
+  },
+  "homepage": "https://analytics.ndna.io",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ndnaio/tracker.git",
+    "directory": "packages/analytics-nuxt"
+  },
+  "bugs": "https://github.com/ndnaio/tracker/issues",
+  "keywords": [
+    "nuxt",
+    "nuxt-module",
+    "analytics",
+    "privacy",
+    "cookieless",
+    "gdpr"
+  ],
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/module.d.ts",
+      "import": "./dist/module.js"
+    }
+  },
+  "main": "./dist/module.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rm -rf dist && tsup && tsc src/runtime/composables.ts --declaration --emitDeclarationOnly --outDir dist/runtime --module esnext --moduleResolution bundler --skipLibCheck",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "@ndna/analytics": "^0.1.0",
+    "@nuxt/kit": "^3.15.0 || ^4.0.0",
+    "defu": "^6.1.4"
+  },
+  "devDependencies": {
+    "@nuxt/schema": "^4.1.0",
+    "tsup": "^8.3.5",
+    "typescript": "^5.6.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "types": "./dist/module.d.ts",
+  "peerDependencies": {
+    "nuxt": ">=3.15.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
